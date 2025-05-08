@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Lab1"] 1746719425.29405 "Lab1.aux" "Lab1.bbl" "Lab1" 1746719429.16385 0
+["bibtex Lab1"] 1746719539.08527 "Lab1.aux" "Lab1.bbl" "Lab1" 1746719543.07381 0
   "./Auswertung.bib" 1746717754.62324 506 d8b48b71a48dac447de7193f9c856aae ""
   "./Auswertung.bst" 1704747292.05732 30488 9b60446df79cfbd9d38ab1a22f8363b0 ""
-  "Lab1.aux" 1746719428.43294 5377 f2d5f294eebce94c50f906b6c2d04858 "pdflatex"
+  "Lab1.aux" 1746719542.31516 5233 d3edd94168b810bad4211313518b3fff "pdflatex"
   (generated)
   "Lab1.bbl"
   "Lab1.blg"
   (rewritten before read)
-["pdflatex"] 1746719425.51585 "/Users/sofia/Documents/Sofia/Master/Semester2/ExpAstroLabor/ExpAstro/Lab1/LaTeX/Lab1.tex" "Lab1.pdf" "Lab1" 1746719429.1641 0
+["pdflatex"] 1746719539.33309 "/Users/sofia/Documents/Sofia/Master/Semester2/ExpAstroLabor/ExpAstro/Lab1/LaTeX/Lab1.tex" "Lab1.pdf" "Lab1" 1746719543.07408 0
   "/Users/sofia/Documents/Sofia/Master/Semester2/ExpAstroLabor/ExpAstro/Lab1/LaTeX/Lab1.tex" 1704747292.0605 3592 37d4a9a7feeee18e1f39eac185dad6c0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -245,16 +245,16 @@
   "03-Protokoll/Protokoll.tex" 1746717686.88469 529 97de3ba6238cad81bdc46fe69645eecb ""
   "04-Versuchsauswertung/Teilauswertung1.tex" 1746717686.88408 66 fd81dc58a04d005b2965d60d54d67361 ""
   "04-Versuchsauswertung/Teilauswertung2.tex" 1746717669.70443 39 33d4462651c897b392ad18c4b107557b ""
-  "04-Versuchsauswertung/Versuchsauswertung.tex" 1746717686.85131 284 ba7c06a73237ab69008fa1d7a1f47e95 ""
+  "04-Versuchsauswertung/Versuchsauswertung.tex" 1746719534.89709 273 cebd057cddc92edfa8027a9871883934 ""
   "05-Fazit/Fazit.tex" 1746717686.74366 77 c8da4bae4f547c09e0323ad2649a35b1 ""
   "06-Anhang/Anhang.tex" 1704747292.05639 59 96453b3d2340e76ff6572ff421c0cb71 ""
   "06-Anhang/AppendA.tex" 1704747292.05664 156 5dac7662ac3fa569bb3d3dda15a2299f ""
   "Bilder/Logo/TUlogo.png" 1746716866.0428 70505 77b62395a356a63f7b91945ab0282c8c ""
-  "Lab1.aux" 1746719428.43294 5377 f2d5f294eebce94c50f906b6c2d04858 "pdflatex"
-  "Lab1.bbl" 1746719425.50744 121 176ef3ab05ccef1cd7a1f3b4a71ca9dc "bibtex Lab1"
-  "Lab1.out" 1746719427.68048 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Lab1.aux" 1746719542.31516 5233 d3edd94168b810bad4211313518b3fff "pdflatex"
+  "Lab1.bbl" 1746719539.32451 121 176ef3ab05ccef1cd7a1f3b4a71ca9dc "bibtex Lab1"
+  "Lab1.out" 1746719541.55269 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Lab1.tex" 1704747292.0605 3592 37d4a9a7feeee18e1f39eac185dad6c0 ""
-  "Lab1.toc" 1746719428.43579 847 c2ee32113f40570fea270c89d5aabd8f "pdflatex"
+  "Lab1.toc" 1746719542.31857 836 01482783d404f9a2f5a5128ce0ea106d "pdflatex"
   (generated)
   "Lab1.aux"
   "Lab1.log"
