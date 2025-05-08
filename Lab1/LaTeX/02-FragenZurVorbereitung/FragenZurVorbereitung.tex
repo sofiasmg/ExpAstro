@@ -3,7 +3,7 @@
 \chapter{Theoretical description}
 \label{chap:fvz}
 
-As described above, with the theodolite the zenith angle $z_b$ and $\phi$ of the horizontal coordinate system can be measured. In this lab only the zenith angle is of interest and via its measurement the geographical latitude can be derived. The theoretical background for this is given in the following. First, it is important to determine the hour angle $\tau$:
+A theodolite is used to measure the angles of the horizontal coordinate system: the zenith angle $z_b$ (90° - altitude) and the azimuth $\phi$. In this lab only the zenith angle is of interest and via its measurement the geographical latitude can be derived. The theoretical background for this is given in the following. First, the relation between the horizontal coordinate system and the $\tau$ -$\delta$ coordinate system is of interest. The hour angle $\tau$ can be determined as follows:
 \begin{equation}
     \tau (t, l, \alpha)= \Theta (t, l) - \alpha = \Theta_G(t) - l - \alpha = \Theta_G(0) + t  \left( \frac{366.24}{365.24}\right) - l - \alpha, 
 \end{equation}
@@ -47,10 +47,10 @@ Next, the index error i has to be taken into account. The latter is defined as f
 
 The index error is the consequence of the displacement of the
 vertical circle towards the zenith which is defined by the alignment of
-the tubular spirit level.
+the tubular spirit level. Additionally the correction for the horizontal parallay $\varphi_2$ and the transformation to the centre of the sun ($\varphi_1$) has to be taken into account. Combining all, the real value for the zenith angle is obtained as follows:
 
 \begin{equation}
     \boxed{
-        z = z_b + i + R(z_b, T, p) \pm \phi_1
-- \phi_2    }
+        z = z_b + i + R(z_b, T, p) \pm \varphi_1
+- \varphi_2    }. 
 \end{equation}
