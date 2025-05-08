@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.5)  8 MAY 2025 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.5)  8 MAY 2025 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1484,30 +1484,30 @@ chapter 1.
 
 ]
 chapter 2.
-) (./03-Protokoll/Protokoll.tex [6
+[6
 
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]) (./03-Protokoll/Protokoll.tex [7]
 chapter 3.
-) (./04-Versuchsauswertung/Versuchsauswertung.tex [7
+) (./04-Versuchsauswertung/Versuchsauswertung.tex [8
 
 ]
 chapter 4.
-(./04-Versuchsauswertung/Teilauswertung1.tex) (./04-Versuchsauswertung/Teilauswertung2.tex)) (./05-Fazit/Fazit.tex [8
+(./04-Versuchsauswertung/Teilauswertung1.tex) (./04-Versuchsauswertung/Teilauswertung2.tex)) (./05-Fazit/Fazit.tex [9
 
 ]
 chapter 5.
-) (./06-Anhang/Anhang.tex (./06-Anhang/AppendA.tex [9
+) (./06-Anhang/Anhang.tex (./06-Anhang/AppendA.tex [10
 
 ]
 chapter A.
-)) (./Lab1.bbl [10
+)) (./Lab1.bbl [11
 
 ]
 chapter without number
 
 Package natbib Warning: Empty `thebibliography' environment on input line 4.
 
-) [11
+) [12
 
 ] (./Lab1.aux)
  ***********
@@ -1518,18 +1518,18 @@ Package rerunfilecheck Info: File `Lab1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 35914 strings out of 474116
- 719850 string characters out of 5743683
- 1935187 words of memory out of 5000000
- 57570 multiletter control sequences out of 15000+600000
- 630011 words of font info for 117 fonts, out of 8000000 for 9000
+ 35939 strings out of 474116
+ 720144 string characters out of 5743683
+ 1938187 words of memory out of 5000000
+ 57573 multiletter control sequences out of 15000+600000
+ 633936 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,7n,107p,11006b,1043s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,8n,107p,11006b,1043s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Lab1.pdf (11 pages, 238825 bytes).
+Output written on Lab1.pdf (12 pages, 241574 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 45154 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 47202 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -440,13 +440,14 @@ INPUT ./02-FragenZurVorbereitung/FragenZurVorbereitung.tex
 INPUT 02-FragenZurVorbereitung/FragenZurVorbereitung.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
-INPUT ./03-Protokoll/Protokoll.tex
-INPUT ./03-Protokoll/Protokoll.tex
-INPUT 03-Protokoll/Protokoll.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
+INPUT ./03-Protokoll/Protokoll.tex
+INPUT ./03-Protokoll/Protokoll.tex
+INPUT 03-Protokoll/Protokoll.tex
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT ./04-Versuchsauswertung/Versuchsauswertung.tex
 INPUT ./04-Versuchsauswertung/Versuchsauswertung.tex
 INPUT 04-Versuchsauswertung/Versuchsauswertung.tex

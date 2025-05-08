@@ -1,12 +1,12 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Theoretical description}{6}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Procedure}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Interpretation}{8}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Calculation of geographical latitude}{8}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Questions}{8}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Results and Discussion}{9}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Append A}{10}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Teilanhang X}{10}{section.A.1}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{11}{chapter*.4}%
+\contentsline {chapter}{\numberline {3}Procedure}{8}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Interpretation}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Calculation of geographical latitude}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Questions}{9}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Results and Discussion}{10}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Append A}{11}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Teilanhang X}{11}{section.A.1}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{12}{chapter*.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

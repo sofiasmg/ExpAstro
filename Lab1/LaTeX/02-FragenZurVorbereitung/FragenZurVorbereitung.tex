@@ -3,11 +3,12 @@
 \chapter{Theoretical description}
 \label{chap:fvz}
 
-% Text
+As described above, with the theodolite the zenith angle $z_b$ and $\phi$ of the horizontal coordinate system can be measured. In this lab only the zenith angle is of interest and via its measurement the geographical latitude can be derived. The theoretical background for this is given in the following. First, it is important to determine the hour angle $\tau$:
 \begin{equation}
-    \tau (t, l, \alpha)= \Theta (t, l) - \alpha = \Theta_G(t) - l - \alpha = \Theta_G(0) + t  \left( \frac{366.24}{365.24}\right) - l - \alpha
+    \tau (t, l, \alpha)= \Theta (t, l) - \alpha = \Theta_G(t) - l - \alpha = \Theta_G(0) + t  \left( \frac{366.24}{365.24}\right) - l - \alpha, 
 \end{equation}
 
+where $\Theta_G(t)$ describes the Greenwhich sidereal time, $\alpha$ and $\delta$ describe right ascention and declination respectively, t is the observation time in UT, and l and b are the coordinates of observation site. This equation has three solutions for b:
 \[
 b = 
 \begin{cases}
@@ -17,9 +18,9 @@ b =
 \end{cases}
 \]
 
-where $X = sin \delta \sqrt{1+(cos \tau / tan \delta)^2}$ and $Y = arctan(cos \tau / tan \delta)$
+where $X = \sin \delta \sqrt{1+(\cos \tau / \tan \delta)^2}$ and $Y = \arctan(\cos \tau / \tan \delta)$. Which of these three solutions will be used is determined by calculating Y with our measured data and looking up b according to GPS. 
 
-Linear Interpolation for UT = t - $\Delta$t and $\Delta$t=2h for CEST:
+As right ascention and declination are only given for the 5th of May 0 UT and the 6th of May 0 UT (according to the Astronomical Almanac), a linear Interpolation for UT = t - $\Delta$t and $\Delta$t=2h for CEST is needed:
 \begin{equation}
     \alpha^{sun}(t) = \alpha^{sun}_1(0UT) + \frac{UT}{\text{24h}}(\alpha^{sun}_2(0UT)-\alpha^{sun}_1(0UT))
 \end{equation}
@@ -28,15 +29,17 @@ Linear Interpolation for UT = t - $\Delta$t and $\Delta$t=2h for CEST:
     \delta^{sun}(t) = \delta^{sun}_1(0UT) + \frac{UT}{\text{24h}}(\delta^{sun}_2(0UT)-\delta^{sun}_1(0UT))
 \end{equation}
 
-Average refraction for T\,=\,10$\deg$C and pressure of 101kPa:
+Additionally, there are several correction factors which have to be taken into account. As the observed light has to pass through the Earth's atmosphere, a change in the direction of the light beam occurs. Therefore, the measured zenith angle is smaller than the real zenith angle. The average refraction for T\,=\,10$\deg$C and pressure of 101kPa is given by:
 
 \begin{equation}
     \bar{R}(z_b) = 1/\tan((90 \deg - z_b + \frac{7.31 \deg^2}{90\deg - z_b + 4.4 \deg}))
 \end{equation}
-
+ leading to the Refraction correction: 
 \begin{equation}
     R(z_b, T, p) = \bar{R}(z_b) \left( \frac{p\, [\si{\kPa}]}{101} \cdot \frac{283}{273 + T\, [\si{\celsius}]} \right)
 \end{equation}
+
+
 
 \begin{equation}
     \boxed{
