@@ -3,20 +3,75 @@
 % Variables
 \def\skalierung{0.65}
 
-\chapter{Procedure}
+\chapter{Protocol}
+
 \label{chap:protokoll}
+\section{Measuring procedure}
 
+The theodolite is set up on a tripod and leveled. It is of great importance to use a solar filter before directing the theodolite at the sun. 
+% Once the theodolite is properly aligned, an exact horizontal orientation is performed, followed by an initial measurement of any alignment errors.
 
-% The theodolite is set up on a tripod and leveled. Once the theodolite is properly aligned, an exact horizontal orientation is performed, followed by an initial measurement of any alignment errors.
+The main observation begins by measuring the zenith angle at both the lower and upper edges of the solar disk. Each edge is measured at least ten times, and the exact time of each individual measurement is recorded, resulting in a total of twenty precise observations.
 
-% The main observation begins by measuring the zenith angle at both the lower and upper edges of the solar disk. Each edge is measured at least ten times, and the exact time of each individual measurement is recorded, resulting in a total of twenty precise observations.
+After the solar measurements, the horizontal alignment is checked again to identify any changes or drifts during the procedure. The index error of the theodolite is then determined by measuring the zenith angle of a fixed terrestrial object, such as an antenna. This measurement is performed twice—once with the theodolite in its original position, and again after rotating it by 180° ($z_0$ and $z_{180}$).
 
-% After the solar measurements, the horizontal alignment is checked again to identify any changes or drifts during the procedure. The index error of the theodolite is then determined by measuring the zenith angle of a fixed terrestrial object, such as an antenna. This measurement is performed twice—once with the theodolite in its original position, and again after rotating it by 180°.
+To account for atmospheric effects, current weather conditions are noted, including temperature and air pressure. These values are recorded both before and after the observations.
 
-% To account for atmospheric effects, current weather conditions are noted, including temperature and air pressure. These values are recorded both before and after the observations, along with any unusual weather anomalies.
+Finally, the geographical latitude of the observation site is calculated using data from the Astronomical Almanac, incorporating individual refraction corrections for each data point. The height, latitude, and longitude of the site are also determined using a GPS device, with all relevant details documented for later analysis. 
 
-% Finally, the geographical latitude of the observation site is calculated using data from the Astronomical Almanac, incorporating individual refraction corrections for each data point. The height, latitude, and longitude of the site are also determined using a GPS device, with all relevant details documented for later analysis.
+\begin{enumerate}
+    \item Greenwich Mean Sidereal Time at 0UT on the 5th of May 2025
+    \item Right ascention $\alpha_1$ and declination $\delta_1$ at 0UT on the 5th of May 2025
+    \item Right ascention $\alpha_2$ and declination $\delta_2$ at 0UT on the 6th of May 2025
+    \item Horizontal parallax $\phi_2$ and solar diameter $\phi_1$ on the 5th of May
+\end{enumerate}
 
+\section{Raw data}
+
+In the table \ref{tab:rawdata} the measured values for the time and the zenith angle z_b are including (including the measurements of the other group). 
+
+\begin{table}[h!]
+    \centering
+    \caption{Time and zenith angle z_b measurements for top and bottom edges of the solar disk.}
+    \label{tab:rawdata}
+    \begin{tabular}{lll}
+    \textbf{Top/Bottom} & \textbf{Time} & \textbf{Zenith Angle} \\
+    \hline
+    Top & 11:42:47 & 39° 09' 32'' \\
+    Top & 11:44:08 & 39° 03' 16'' \\
+    Top & 11:56:50 & 38° 06' 06'' \\
+    Top & 11:57:37 & 38° 03' 07'' \\
+    Top & 12:04:53 & 37° 35' 57'' \\
+    Top & 12:06:03 & 37° 32' 02'' \\
+    Top & 11:43:31 & 38° 49' 19'' \\
+    Top & 11:45:05 & 38° 56' 10'' \\
+    Top & 11:46:20 & 38° 36' 37'' \\
+    Top & 11:47:22 & 38° 48' 14'' \\
+    Top & 11:51:27 & 38° 30' 23'' \\
+    \hline
+    Bottom & 11:49:08 & 39° 12' 26'' \\
+    Bottom & 11:51:03 & 39° 04' 52'' \\
+    Bottom & 11:59:29 & 38° 29' 01'' \\
+    Bottom & 12:01:11 & 38° 21' 33'' \\
+    Bottom & 11:23:16 & 41° 23' 11'' \\
+    Bottom & 11:24:05 & 41° 18' 13'' \\
+    Bottom & 11:31:13 & 40° 39' 18'' \\
+    Bottom & 11:32:56 & 40° 46' 52'' \\
+    Bottom & 11:36:24 & 40° 12' 43'' \\
+    Bottom & 11:38:09 & 39° 46' 56'' \\
+    Bottom & 11:42:17 & 39° 41' 56'' \\
+    \end{tabular}
+
+    \end{table}
+
+The data of the Astronomical Almanac is: 
+
+\begin{enumerate}
+    \item $\Theta_G(0UT)$\,=\,14h\,52m\,28.7584s
+    \item $\alpha_1$\,=\,2.8197997\,h and $\delta_1$\,=\,16.262748\,°
+    \item $\alpha_2$\,=\,2.8841898\,h and $\delta_2$\,=\,16.545533\,°
+    \item $\phi_2$\,=\,8.72\,° and $\phi_1$\,=\,15' + 51.58''
+\end{enumerate}
 
 
 % Einbindung des Protokolls als pdf (mit Seitenzahl etc.)

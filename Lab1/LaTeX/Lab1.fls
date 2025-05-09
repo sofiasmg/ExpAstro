@@ -453,13 +453,13 @@ INPUT ./03-Protokoll/Protokoll.tex
 INPUT ./03-Protokoll/Protokoll.tex
 INPUT 03-Protokoll/Protokoll.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT ./04-Versuchsauswertung/Versuchsauswertung.tex
 INPUT ./04-Versuchsauswertung/Versuchsauswertung.tex
 INPUT 04-Versuchsauswertung/Versuchsauswertung.tex
 INPUT ./04-Versuchsauswertung/Teilauswertung1.tex
 INPUT ./04-Versuchsauswertung/Teilauswertung1.tex
 INPUT 04-Versuchsauswertung/Teilauswertung1.tex
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT ./04-Versuchsauswertung/Teilauswertung2.tex
 INPUT ./04-Versuchsauswertung/Teilauswertung2.tex
 INPUT 04-Versuchsauswertung/Teilauswertung2.tex
@@ -484,6 +484,7 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi8.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb

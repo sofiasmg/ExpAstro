@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.5)  8 MAY 2025 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.5)  9 MAY 2025 10:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1491,26 +1491,29 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]) (./03-Protokoll/Protokoll.tex [7]
 chapter 3.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 ) (./04-Versuchsauswertung/Versuchsauswertung.tex [8
 
-]
+] [9]
 chapter 4.
-(./04-Versuchsauswertung/Teilauswertung1.tex) (./04-Versuchsauswertung/Teilauswertung2.tex)) (./05-Fazit/Fazit.tex [9
+(./04-Versuchsauswertung/Teilauswertung1.tex) (./04-Versuchsauswertung/Teilauswertung2.tex)) (./05-Fazit/Fazit.tex [10
 
 ]
 chapter 5.
-) (./06-Anhang/Anhang.tex (./06-Anhang/AppendA.tex [10
+) (./06-Anhang/Anhang.tex (./06-Anhang/AppendA.tex [11
 
 ]
 chapter A.
-)) (./Lab1.bbl [11
+)) (./Lab1.bbl [12
 
 ]
 chapter without number
 
 Package natbib Warning: Empty `thebibliography' environment on input line 4.
 
-) [12
+) [13
 
 ] (./Lab1.aux)
  ***********
@@ -1521,18 +1524,18 @@ Package rerunfilecheck Info: File `Lab1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 35987 strings out of 474116
- 721218 string characters out of 5743683
- 1937187 words of memory out of 5000000
- 57605 multiletter control sequences out of 15000+600000
- 634680 words of font info for 134 fonts, out of 8000000 for 9000
+ 36025 strings out of 474116
+ 721706 string characters out of 5743683
+ 1939187 words of memory out of 5000000
+ 57619 multiletter control sequences out of 15000+600000
+ 635178 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,8n,107p,11006b,1043s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Lab1.pdf (12 pages, 244354 bytes).
+ 108i,9n,107p,11006b,1043s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on Lab1.pdf (13 pages, 275602 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 49250 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 49266 words of extra memory for PDF output out of 51595 (max. 10000000)
 
