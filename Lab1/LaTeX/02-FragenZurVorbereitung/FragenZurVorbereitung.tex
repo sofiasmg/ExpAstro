@@ -5,7 +5,7 @@
 
 A theodolite is used to measure the angles of the horizontal coordinate system: the zenith angle $z_b$ (90° - altitude) and the azimuth $\phi$. In this lab only the zenith angle is of interest and via its measurement the geographical latitude can be derived. The theoretical background for this is given in the following. First, the relation between the horizontal coordinate system and the $\tau$ -$\delta$ coordinate system is of interest. The hour angle $\tau$ can be determined as follows:
 \begin{equation}
-    \tau (t, l, \alpha)= \Theta (t, l) - \alpha = \Theta_G(t) + l - \alpha = \Theta_G(0) + t  \left( \frac{366.24}{365.24}\right) + l - \alpha, 
+    \tau (t, l, \alpha)= \Theta (t, l) - \alpha = \Theta_G(t) + l - \alpha = \Theta_G(0) + t  \left( \frac{366.24}{365.24}\right) + l - \alpha, \label{eq:hour_angle}
 \end{equation}
 
 where $\Theta_G(t)$ describes the Greenwhich sidereal time, $\alpha$ and $\delta$ describe right ascention and declination respectively, t is the observation time in UT, and l and b are the geographical coordinates of observation site, corresponding to the longitude, measured eastward (E), and latitude respectively. This equation has three solutions for b:
@@ -14,7 +14,7 @@ b =
 \begin{cases}
     \pi - arcsin(cos z/X) - Y, & (b + Y ) > \pi/2 \\
     arcsin(cos z/X) - Y, & -\pi/2 \ge (b + Y ) \le \pi/2 \\
-    -arcsin(cos z/X) - \pi - Y, & (b + Y ) < - \pi/2
+    -arcsin(cos z/X) - \pi - Y, & (b + Y ) < - \pi/2 \label{eq:latitude}
 \end{cases}
 \]
 
@@ -32,7 +32,7 @@ As right ascention and declination are only given for the 5th of May 0 UT and th
 Additionally, there are several correction factors which have to be taken into account. As the observed light has to pass through the Earth's atmosphere, a change in the direction of the light beam occurs. Therefore, the measured zenith angle is smaller than the real zenith angle. The average refraction for T\,=\,10$\deg$C and pressure of 101kPa is given by:
 
 \begin{equation}
-    \bar{R}(z_b) = 1/\tan((90 \deg - z_b + \frac{7.31 \deg^2}{90\deg - z_b + 4.4 \deg}))
+    \bar{R}(z_b) = 1/\tan((90 \deg - z_b + \frac{7.31 \deg^2}{90\deg - z_b + 4.4 \deg})) \label{eq:cotangent}
 \end{equation}
  leading to the Refraction correction: 
 \begin{equation}
@@ -47,10 +47,13 @@ Next, the index error i has to be taken into account. The latter is defined as f
 
 The index error is the consequence of the displacement of the
 vertical circle towards the zenith which is defined by the alignment of
-the tubular spirit level. Additionally the correction for the horizontal parallay $\varphi_2$ and the transformation to the centre of the sun ($\varphi_1$) has to be taken into account. Combining all, the real value for the zenith angle is obtained as follows:
+the tubular spirit level. Additionally the correction for the horizontal parallax $\varphi_2$ and the transformation to the centre of the sun ($\varphi_1$) has to be taken into account. Combining all, the real value for the zenith angle is obtained as follows:
 
 \begin{equation}
     \boxed{
         z = z_b + i + R(z_b, T, p) \pm \varphi_1
 - \varphi_2    }. \label{eq:zenith_angle_corrections}
 \end{equation}
+
+From the linearity of Eq.~(\ref{eq:zenith_angle_corrections}) it becomes apparent that the order in which the corrections are applied is irrelevant (question a). 
+However care has to be taken when calculating the atmospheric refraction $R$, since here a nonlinear cotangent is present (see Eq.~(\ref{eq:cotangent})). This means that for the refraction correction the measured values $z_b$ at the upper and lower edges of the sun have to be inserted.
