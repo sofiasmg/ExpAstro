@@ -5,10 +5,10 @@
 
 A theodolite is used to measure the angles of the horizontal coordinate system: the zenith angle $z_b$ (90° - altitude) and the azimuth $\phi$. In this lab only the zenith angle is of interest and via its measurement the geographical latitude can be derived. The theoretical background for this is given in the following. First, the relation between the horizontal coordinate system and the $\tau$ -$\delta$ coordinate system is of interest. The hour angle $\tau$ can be determined as follows:
 \begin{equation}
-    \tau (t, l, \alpha)= \Theta (t, l) - \alpha = \Theta_G(t) - l - \alpha = \Theta_G(0) + t  \left( \frac{366.24}{365.24}\right) - l - \alpha, 
+    \tau (t, l, \alpha)= \Theta (t, l) - \alpha = \Theta_G(t) + l - \alpha = \Theta_G(0) + t  \left( \frac{366.24}{365.24}\right) + l - \alpha, 
 \end{equation}
 
-where $\Theta_G(t)$ describes the Greenwhich sidereal time, $\alpha$ and $\delta$ describe right ascention and declination respectively, t is the observation time in UT, and l and b are the coordinates of observation site. This equation has three solutions for b:
+where $\Theta_G(t)$ describes the Greenwhich sidereal time, $\alpha$ and $\delta$ describe right ascention and declination respectively, t is the observation time in UT, and l and b are the geographical coordinates of observation site, corresponding to the longitude, measured eastward (E), and latitude respectively. This equation has three solutions for b:
 \[
 b = 
 \begin{cases}
@@ -52,5 +52,5 @@ the tubular spirit level. Additionally the correction for the horizontal paralla
 \begin{equation}
     \boxed{
         z = z_b + i + R(z_b, T, p) \pm \varphi_1
-- \varphi_2    }. 
+- \varphi_2    }. \label{eq:zenith_angle_corrections}
 \end{equation}
